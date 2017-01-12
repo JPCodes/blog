@@ -24,10 +24,16 @@ export default Ember.Route.extend({
       this.transitionTo('post');
     },
     deletePost(post) {
-      if (confirm('Are you sure you want to delete this post?')) {
-        post.destroyRecord();
-        this.transitionTo('index');
-      }
-  }
+      var comment_deletions = post.get('comments').map(function(comment) {
+        return comment.destroyRecord();
+      });
+      Ember.RSVP.all(comment_deletions).then(function() {
+        return post.destroyRecord();
+      });
+      this.transitionTo('index');
+    },
+  destroyComment(comment) {
+    comment.destroyRecord();
+    this.transitionTo('post');   }
 }
 });
