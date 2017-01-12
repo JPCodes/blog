@@ -6,4 +6,12 @@
 
 {{post-update model=model updatePost="updatePost"}}
 
+<ul>
+  {{#each model.comments as |comment|}}
+    {{comment-tile comment=comment}}
+  {{/each}}
+</ul>
+
 <button {{action 'deletePost' model}}>Delete</button>
+
+{{new-comment saveComment="saveComment" post=model}}
