@@ -1,0 +1,8 @@
+<p>Home</p>
+
+
+{{new-post savePost="savePost"}}
+
+{{#each model as |current_post|}}
+  {{post-display current_post=current_post}}
+{{/each}}

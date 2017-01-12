@@ -17,10 +17,19 @@ module.exports = function(environment) {
       }
     },
 
+    firebase: {
+      apiKey: "AIzaSyC-hMifclgPxSK1se2RsFY9ka1zNLdqgoU",
+      authDomain: "blog-40f7f.firebaseapp.com",
+      databaseURL: "https://blog-40f7f.firebaseio.com",
+      storageBucket: "blog-40f7f.appspot.com"
+  },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
     }
+
+
   };
 
   if (environment === 'development') {

@@ -1,0 +1,18 @@
+{ "posts": [{
+    "author": "Veruca Salt",
+    "title": "San Francisco sucks",
+    "text": "Bacon ipsum dolor amet kielbasa pork chop swine, ribeye picanha frankfurter prosciutto short ribs ground round pork chicken cupim. Pastrami beef shankle pig. Bacon landjaeger spare ribs turducken. Pork belly drumstick alcatra sausage picanha turkey bresaola chicken cupim. Shank filet mignon kevin ribeye pork cupim pig tenderloin prosciutto ham. Venison sirloin pork loin frankfurter, drumstick pastrami rump. Jowl turkey short ribs rump, beef kevin hamburger capicola tri-tip salami bresaola.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  }, {
+    "author": "Mike Teavee",
+    "title": "Seattle is alright",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+  }, {
+    "author": "Violet Beauregarde",
+    "title": "Portland.. eh.. I mean, it's alright I guess",
+    "text": "Air plant literally coloring book, fanny pack hoodie yuccie irony sustainable four loko ethical lo-fi. IPhone vape portland jean shorts whatever, butcher austin salvia typewriter wayfarers enamel pin meggings narwhal everyday carry. Lomo chartreuse hammock, four loko you probably haven't heard of them cornhole street art. Etsy quinoa bicycle rights leggings, marfa meggings tacos brunch hoodie echo park squid. Cronut taxidermy ramps, art party kombucha beard distillery marfa cray. Fingerstache waistcoat hella activated charcoal street art flannel helvetica tacos tumeric DIY celiac, fam portland kitsch brunch. Art party truffaut selfies gochujang migas, live-edge beard mixtape try-hard disrupt glossier.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }]
+
+}
