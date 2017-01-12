@@ -1,1 +1,9 @@
-{{outlet}}
+
+<h2>{{model.title}}</h2>
+<h3>{{model.author}}</h3>
+
+<p>{{model.text}}</p>
+
+{{post-update model=model updatePost="updatePost"}}
+
+<button {{action 'deletePost' model}}>Delete</button>

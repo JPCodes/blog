@@ -1,0 +1,16 @@
+{{#if updatePostForm}}
+<form>
+  <label for="title">Title:</label>
+  {{input value=title type="text" id="title" placeholder=model.title}}
+  <label for="author">Author:</label>
+  {{input value=author type="text" id="author" placeholder=model.author}}
+  <label for="text">Text:</label>
+  {{input value=text type="text" id="text" placeholder=model.text}}
+  <label for="image">Image:</label>
+  {{input value=image type="text" id="image" placeholder=model.image}}
+  <button {{action "updatePost" model}}>Update post</button>
+
+</form>
+{{else}}
+  <button {{action 'updatePostFormShow'}}>Update</button>
+{{/if}}
